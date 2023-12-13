@@ -1,0 +1,3 @@
+#Omit the following files
+/notes.txt
+/.vscode
