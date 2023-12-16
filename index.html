@@ -8,9 +8,14 @@
     <!--CSS General-->
     <link rel="stylesheet" href="css/nav.css">
     <!--CSS Index-->
+        <!--Carousel-->
+        <link rel="stylesheet" href="css/carousel.css">
     <!--JS General-->
     <script src="js/nav.js" defer></script>
     <!--JS Index-->
+        <!--Carousel-->
+        <script src="js/carousel.js" defer></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
     <header>
@@ -36,6 +41,80 @@
             </div>
         </nav>
         <!--ENDS Css=nav.css/Js=nav.js-->
+        <!--START Css=carousel.css/Js=carousel.js-->
+        <section id="container-slider">
+            <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev">
+                <i class="fas fa-chevron-circle-left"></i>
+            </a>
+            <a href="javascript: fntExecuteSlide('next');" class="arrowNext">
+                <i class="fas fa-chevron-circle-right"></i>
+            </a>
+            <ul class="listslider">
+                <li>
+                    <a itlist="itList_0" href="#" class="item-select-slid"></a>
+                </li>
+                <li>
+                    <a itlist="itList_1" href="#"></a>
+                </li>
+                <li>
+                    <a itlist="itList_2" href="#"></a>
+                </li>
+            </ul>
+            <ul id="slider">
+                <li style="background-image: url('https://www.just-auto.com/wp-content/uploads/sites/30/2021/11/2021_0611_7a039728j00quj63q009mc000sg00lcc.jpg'); z-index:0; opacity: 1;">
+                    <div class="content_slider" >
+                        <div>
+                            <h2>TAN FUERTE COMO ELEGANTE</h2>
+                            <p>Diseño que sobresale tanto en el entorno urbano, como en medio de la naturaleza.</p>
+                            <a href="#" class="btnSlider">Ver más</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.industriaitaliana.it/wp-content/uploads/2022/11/WEY_COFFEE_01_09-scaled.jpg.webp'); ">
+                    <div class="content_slider" >
+                        <div>
+                            <h2>CONFORT EN TU TRABAJO</h2>
+                            <p>Los detalles exteriores e interiores distintivos crean una apariencia que expresa la fuerza con que Great Wall conecta con sus clientes.</p>
+                            <a href="#" class="btnSlider">Ver más</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://etimg.etb2bimg.com/photo/71997005.cms'); ">
+                    <div class="content_slider" >
+                        <div>
+                            <h2>59 AÑOS DE EXPERIENCIA</h2>
+                            <p>Seguridad, confianza y respaldo</p>
+                            <a href="#" class="btnSlider">Ver más</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--ENDS Css=carousel.css/Js=carousel.js-->
     </header>
+    <main>
+        <section>
+            <div>
+                <p>Presente en los</p>
+                <h2>5</h2>
+                <p>continentes</p>
+            </div>
+            <div>
+                <p>Más de</p>
+                <h2>25</h2>
+                <p>países</p>
+            </div>
+            <div>
+                <p>Vendidos más de</p>
+                <h2>3</h2>
+                <p>millones de autos</p>
+            </div>
+            <div>
+                <p>Tenemos</p>
+                <h2>2</h2>
+                <p>concesionarios en Guatemala</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
